@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588d3d529d352494baa3d686c636f9ce, type: 3}
+  m_Name: ShaderPropertyNames
+  m_EditorClassIdentifier: 
+  NameData:
+  - ShaderName: W9/Effects/NewParticles/Particle_Base
+    NameMappings:
+    - PropertyName: _Color
+      CustomName: "\u8D34\u56FE\u989C\u8272\u53E0\u52A0"
+    - PropertyName: _UI_MainTex_ST
+      CustomName: "UI\u8D34\u56FE\u5E73\u94FA\u504F\u79FB"
+    - PropertyName: _TWStrength
+      CustomName: "\u626D\u66F2\u5F3A\u5EA6"
+    - PropertyName: _BaseMapUVRotation
+      CustomName: "\u4E3B\u8D34\u56FE\u65CB\u8F6C"
+    - PropertyName: _BaseMapMaskMapOffset
+      CustomName: "\u4E3B\u8D34\u56FE\u504F\u79FB\u52A8\u753B\uFF08XY\uFF09"
+    - PropertyName: _TWParameter
+      CustomName: "\u65CB\u8F6C\u626D\u66F2\u4E2D\u5FC3\uFF08\u4EC5XY\u53C2\u6570\u6709\u6548\uFF09"
+    - PropertyName: _TWStrength
+      CustomName: "\u65CB\u8F6C\u626D\u66F2\u5F3A\u5EA6"
+    - PropertyName: "\u6781\u5750\u6807\u4E2D\u5FC3\u504F\u79FB\uFF08xy\uFF09\u6781\u5750\u6807\u504F\u79FB\u5F3A\u5EA6\uFF08z\uFF09"
+      CustomName: _PCCenter
+    - PropertyName: _MaskMap
+      CustomName: "\u906E\u7F69\u8D34\u56FE"
+    - PropertyName: _MaskMap_ST
+      CustomName: "\u906E\u7F69\u8D34\u56FETillingOffset"
+    - PropertyName: _MaskDistortion_intensity
+      CustomName: "\u906E\u7F69\u626D\u66F2\u5F3A\u5EA6"
+    - PropertyName: _MaskMapUVRotation
+      CustomName: "\u906E\u7F69\u8D34\u56FE\u65CB\u8F6C"
+    - PropertyName: _EdgeFade
+      CustomName: CH EdgeFade
+    - PropertyName: _XianXingCH_UVRota
+      CustomName: CH XianXingCH_UVRota
+    - PropertyName: _CustomData1Y
+      CustomName: "\u901A\u9053\u64E6\u9664Anima"
+    - PropertyName: _jingxiangCH_dire
+      CustomName: JX Direction
+    - PropertyName: _NoiseMap
+      CustomName: "\u626D\u66F2\u8D34\u56FE"
+    - PropertyName: _NoiseMap_ST
+      CustomName: "\u626D\u66F2\u8D34\u56FETillingOffset"
+    - PropertyName: _NoiseMapUVRotation
+      CustomName: "\u626D\u66F2\u56FE\u65CB\u8F6C"
+    - PropertyName: _NoiseOffset
+      CustomName: "\u626D\u66F2\u56FE\u504F\u79FB\u52A8\u753B\uFF08xy\uFF09\u8F6C\u5230\u4E16\u754CXY\u5750\u6807\u91C7\u6837\uFF08z\uFF09"
+    - PropertyName: _EmissionMap
+      CustomName: "\u6D41\u5149\u8D34\u56FE"
+    - PropertyName: _EmissionMap_ST
+      CustomName: "\u6D41\u5149\u8D34\u56FETillingOffset"
+    - PropertyName: _uvTexColor
+      CustomName: uvTexColor
+    - PropertyName: _EmissionMapUVRotation
+      CustomName: "\u6D41\u5149\u8D34\u56FE\u65CB\u8F6C"
+    - PropertyName: _Emi_Distortion_intensity
+      CustomName: "\u6D41\u5149\u8D34\u56FE\u626D\u66F2\u5F3A\u5EA6"
+    - PropertyName: _LiuTexSpeed
+      CustomName: "\u6D41\u5149\u8D34\u56FE\u56FE\u504F\u79FB\u52A8\u753B(xy)"
+    - PropertyName: _EmissionSelfAlphaWeight
+      CustomName: "\u6D41\u5149\u81EA\u8EAB\u900F\u660E\u5EA6\u6743\u91CD"
+    - PropertyName: _uvRapSoft
+      CustomName: uvRapSoft
+    - PropertyName: _CustomData2X
+      CustomName: "\u6D41\u5149Anima"
+    - PropertyName: _EdgeColor
+      CustomName: EdgeColor
+    - PropertyName: _EdgeLength
+      CustomName: EdgeLength
+    - PropertyName: _CustomData1X
+      CustomName: "\u6EB6\u89E3Anima"
